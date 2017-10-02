@@ -1,0 +1,6 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Logan Egbert"
+description = "Portfolio Website of Logan Egbert"
+theme = "minimal"
+publishDir ="docs"

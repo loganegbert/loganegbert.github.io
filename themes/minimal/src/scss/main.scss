@@ -109,13 +109,42 @@ p {
 
 //Navigation 
 .nav {
-  height: 50px;
+  height: 35px;
 }
 
 .left-nav {
   float: left;
+  ul {
+    list-style-type: none;
+    vertical-align: text-bottom;
+    text-transform: lowercase;
+  }
+  li {
+    display: inline;
+  }
+  a {
+    color: $dark-gray;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: justify;
+  }
+  a:hover {
+    color: $bright-red;
+}
 }
 
 .right-nav {
   float: right;
+  ul {
+    list-style-type: none;
+    vertical-align: text-bottom;
+    text-transform: lowercase;
+  }
+  li {
+    display: inline;
+  }
+  i {
+    margin-right: 15px;
+    color: $bright-red;
+  }
 }

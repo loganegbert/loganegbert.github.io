@@ -38,5 +38,14 @@
       <description>Yo</description>
     </item>
     
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/</link>
+      <pubDate>Sat, 30 Sep 2017 12:11:44 -0700</pubDate>
+      
+      <guid>/portfolio/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

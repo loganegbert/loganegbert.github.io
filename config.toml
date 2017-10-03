@@ -4,3 +4,7 @@ title = "Logan Egbert"
 description = "Portfolio Website of Logan Egbert"
 theme = "minimal"
 publishDir ="docs"
+
+[params]
+    [menu.main]
+    

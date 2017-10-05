@@ -1,24 +1,21 @@
 //Imports
 @import "simple-grid";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
-
 //Styles
-
 // fonts
-$font-family: 'Lato', Helvetica, sans-serif;
+$font-family: 'Lato',
+Helvetica,
+sans-serif;
 $font-weight-light: 300;
 $font-weight-regular: 400;
 $font-weight-heavy: 700;
 $font-height: 1.5;
-
 // colors
 $dark-grey: #333447;
 $dark-gray: #333447; // for the Americans
 $bright-red: #FF0000;
 $forest-green: #228B22;
-
 // universal
-
 html,
 body {
   height: 100%;
@@ -37,7 +34,6 @@ body {
 }
 
 // typography
-
 h1 {
   font-size: 2.5rem;
   color: $forest-green;
@@ -84,7 +80,6 @@ p {
 }
 
 // utility
-
 .left {
   text-align: left;
 }
@@ -131,7 +126,7 @@ p {
   }
   a:hover {
     color: $bright-red;
-}
+  }
 }
 
 .right-nav {

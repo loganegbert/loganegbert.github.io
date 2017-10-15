@@ -27,6 +27,7 @@
     "gulp-hash": "^4.1.1",
     "gulp-imagemin": "^3.3.0",
     "gulp-responsive": "^2.8.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "instafeed.js": "^1.4.1"
   }
 }

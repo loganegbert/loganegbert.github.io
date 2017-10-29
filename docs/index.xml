@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logan Egbert</title>
+    <link>/</link>
+    <description>Recent content on Logan Egbert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Sep 2017 12:25:49 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sat, 30 Sep 2017 12:25:49 -0700</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>If you&amp;rsquo;re interested in commissioning a portrait or would to otherwise get in touch, please fill out the form below or click on the envelop on the upper right hand side of the screen. Your name:  
+Your email:  
+Your message:   
+ </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 30 Sep 2017 12:24:10 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello. 
+My name is Logan Egbert. 
+Husband, hound owner, jiu jitsu purple belt, photographer, and a real mentsch. 
+I make portraits with both film and digital cameras.
+I&amp;rsquo;m the fellow behind Nails and Hammers, a portrait project focused around grapplers and grappling communities.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/</link>
+      <pubDate>Sat, 30 Sep 2017 12:11:44 -0700</pubDate>
+      
+      <guid>/portfolio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

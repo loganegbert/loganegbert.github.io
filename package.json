@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/loganegbert/portfolio#readme",
   "devDependencies": {
+    "bulma": "^0.6.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",

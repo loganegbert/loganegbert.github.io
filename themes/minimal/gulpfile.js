@@ -18,15 +18,15 @@ var gulp = require("gulp"),
       .pipe(gulp.dest("./data/css"))
   })
 
-  // Hash images
-  gulp.task("images", function () {
-    del(["static/images/**/*"])
-    gulp.src("src/images/**/*")
-      .pipe(hash())
-      .pipe(gulp.dest("static/images"))
-      .pipe(hash.manifest("hash.json"))
-      .pipe(gulp.dest("./data/images"))
-  })
+  // // Hash images
+  // gulp.task("images", function () {
+  //   del(["static/images/**/*"])
+  //   gulp.src("src/images/**/*")
+  //     .pipe(hash())
+  //     .pipe(gulp.dest("static/images"))
+  //     .pipe(hash.manifest("hash.json"))
+  //     .pipe(gulp.dest("./data/images"))
+  // })
 
   // Hash javascript
   gulp.task("js", function () {
@@ -39,11 +39,11 @@ var gulp = require("gulp"),
   })
 
   // Watch asset folder for changes
-  gulp.task("watch", ["scss", "images", "js"], function () {
+  gulp.task("watch", ["scss", "js"], function () {
     gulp.watch("src/scss/**/*", ["scss"])
     gulp.watch("src/images/**/*", ["images"])
     gulp.watch("src/js/**/*", ["js"])
   })
 
   // Set watch as default task
-  gulp.task("default", ["watch"])
+  gulp.task("default", ["js","watch"])

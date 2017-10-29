@@ -1,6 +1,7 @@
 //Imports
-@import "simple-grid";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css);
+
 //Styles
 // fonts
 $font-family: 'Lato',
@@ -103,45 +104,14 @@ p {
 }
 
 //Navigation 
-.nav {
-  height: 35px;
-}
+.navbar {
+  margin-bottom: 2em;
 
-.left-nav {
-  float: left;
-  ul {
-    list-style-type: none;
-    vertical-align: text-bottom;
-    text-transform: lowercase;
-  }
-  li {
-    display: inline;
-    font-size: 12px;
-  }
-  a {
-    color: $dark-gray;
-    text-decoration: none;
-    margin-right: 10px;
-    text-align: justify;
-  }
-  a:hover {
+  .fa {
     color: $bright-red;
   }
-}
 
-.right-nav {
-  float: right;
-  ul {
-    list-style-type: none;
-    vertical-align: text-bottom;
-    text-transform: lowercase;
-  }
-  li {
-    display: inline;
-    font-size: 12px;
-  }
-  i {
-    margin-right: 15px;
+  .navbar-item {
     color: $bright-red;
   }
 }

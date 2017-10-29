@@ -1,18 +1,53 @@
-<nav class="left-nav">
-    <ul>
-    <li><a href="/">home</a></li>
-    <li><a href="/about">about</a></li>
-    <li><a href="/portfolio">portfolio</a></li>
-    <li><a href="/contact">contact</a></li>   
-    </ul>
-</nav>
-<div class="nav-logo"></div>
-<nav class="right-nav">
-    <ul>
-        <li><a href="https://instagram.com/6cmzumquadrat"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.facebook.com/LoganEgbertPhotography/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="http://nailsandhammers.net"><i class="fa fa-camera-retro"></i></a></li>        
-        <li><a href="mailto:logan.egbert@proton.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-    </ul>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+            <button class="button navbar-burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </button>
+    </div>
+
+    <div class="navbar-menu">
+        <div class="navbar-start">
+                <a class="navbar-item">home</a> 
+                <a class="navbar-item" href="/about">about</a>
+                <a class="navbar-item" href="/portfolio">portfolio</a> 
+                <a class="navbar-item" href="/contact">contact</a>            
+        </div>
+              
+        <div class="navbar-end">
+                <a class="navbar-item" href="https://instagram.com/6cmzumquadrat"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="navbar-item" href="https://www.facebook.com/LoganEgbertPhotography/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="navbar-item" href="http://nailsandhammers.net"><i class="fa fa-camera-retro"></i></a>
+                <a class="navbar-item" href="mailto:logan.egbert@proton.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </div>
+     </div>
 </nav>
 
+<script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            
+              // Get all "navbar-burger" elements
+              var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            
+              // Check if there are any navbar burgers
+              if ($navbarBurgers.length > 0) {
+            
+                // Add a click event on each of them
+                $navbarBurgers.forEach(function ($el) {
+                  $el.addEventListener('click', function () {
+            
+                    // Get the target from the "data-target" attribute
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+            
+                    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+            
+                  });
+                });
+              }
+            
+            });
+</script>

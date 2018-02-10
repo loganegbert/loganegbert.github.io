@@ -18,16 +18,6 @@ var gulp = require("gulp"),
       .pipe(gulp.dest("./data/css"))
   })
 
-  // // Hash images
-  // gulp.task("images", function () {
-  //   del(["static/images/**/*"])
-  //   gulp.src("src/images/**/*")
-  //     .pipe(hash())
-  //     .pipe(gulp.dest("static/images"))
-  //     .pipe(hash.manifest("hash.json"))
-  //     .pipe(gulp.dest("./data/images"))
-  // })
-
   // Hash javascript
   gulp.task("js", function () {
     del(["static/js/**/*"])

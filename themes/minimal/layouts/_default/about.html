@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<main>
+    <div class="container navigation">
+        {{ partial "nav.html" . }}
+    </div>
+    <div class="container is-fluid">
+        <div class="columns">
+                <div class="column is-11 is-offset-1">
+                    <img src="/images/self.jpg" class="image-left">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+</main>
+
+{{ partial "footer" . }}

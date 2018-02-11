@@ -2,11 +2,12 @@
 title: "Contact"
 date: 2017-09-30T12:25:49-07:00
 draft: false
+layout: "single"
 ---
-If you're interested in commissioning a portrait or would to otherwise get in touch, please fill out the form below or click on the envelop on the upper right hand side of the screen.
-<br>
+#### If you're interested in commissioning a portrait or would to otherwise get in touch, please fill out the form below or click on the envelope on the upper right hand side of the screen.
 <br>
 
+<div class="email-form">
 <form action="//formspree.io/logan.egbert@protonmail.com" method="POST">
     <div class="field">
         <label class="label" for="name">Your name:</label>
@@ -27,3 +28,4 @@ If you're interested in commissioning a portrait or would to otherwise get in to
     <p></p>
     <input class="button is-danger is-small" type="submit" value="Send">
 </form>
+</div>

@@ -80,6 +80,14 @@ p {
   font-weight: $font-weight-heavy;
 }
 
+.image-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.email-form {
+  width: 60%;
+}
 // utility
 .left {
   text-align: left;
